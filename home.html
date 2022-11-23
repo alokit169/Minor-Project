@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STICHER</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/home.css">
+
+
+
+</head>
+
+<body>
+        <py-script src="STITCHER IMAGE/main.py"></py-script>
+    <div class="bg-img">
+        <div id="bg-img">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <!-- <video autoplay muted loop plays-inline src="/img/Sea - 6399.mp4"></video> -->
+                        <img src="/img/alokit bg.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <video autoplay muted loop plays-inline src="/img/Beach - 7277.mp4"></video> -->
+                        <img src="/img/alokit bg2.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <video autoplay muted loop plays-inline src="/img/Lake - 52849.mp4"></video> -->
+                        <img src="/img/alokit bg 3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav class="navibar">
+        <div id="logo">
+            <img src="/img/alokit logo.png" alt="Satler">
+        </div>
+        <div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#process">Process</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="signup.html">SignUp</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1>MAKING WORK EASIER
+            IS OUR OBSESSION</h1>
+        <div id="arrow">
+            <a href="#packages-container"> <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                    fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                </svg></a>
+        </div>
+    </section>
+
+    <div id="process">
+        <h1 class="h-primary center" id="ph">How we stich your image</h1>
+        <div id="process-container">
+            <div class="card box" style="width: 18rem;">
+                <img class="card-img-top" src="/img/camera.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title h-secondary center">Enter image</h5>
+                    <p class="card-text center">Enter the images you want stitched
+                        (minimum 30 - 50 % overlapped)</p>
+                </div>
+            </div>
+            <div class="card box" style="width: 18rem;">
+                <img class="card-img-top" src="/img/process.jpeg" alt="Card image cap" style="height: 282px;">
+                <div class="card-body">
+                    <h5 class="card-title h-secondary center">Process</h5>
+                    <p class="card-text center" style="margin-bottom: 30px;">It's our secret ! 🤫</p>
+                </div>
+            </div>
+            <div class="card box" style="width: 18rem;">
+                <img class="card-img-top" src="/img/result.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title h-secondary center">Result</h5>
+                    <p class="card-text center" style="margin-bottom: 35px;">Here it is
+                        Your Result</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="image_input" >
+        <form  enctype = "multipart/form-data" action = "main.py" method = "post">
+            <div id="dropContainer1" style="border:1px solid black;height:100px;">
+                Drop Image One Here
+            </div>
+            Should update here:
+            <input type="file" id="fileInput1" name="fileInput1"/>
+                <br><br><br>
+
+             <div id="dropContainer2" style="border:1px solid black;height:100px;">
+                Drop Image One Here
+            </div>
+            Should update here:
+            <input type="file" id="fileInput2" name="fileInput2" />
+
+            <p><input type = "submit" value = "Upload" /></p>
+
+        </form>
+           
+    </div>
+
+    
+    <script>
+        var dropConntainer1=document.getElementById('dropContainer1');
+        var dropConntainer2=document.getElementById('dropContainer2')
+        dropContainer1.ondragover = dropContainer1.ondragenter = function(evt) {
+            evt.preventDefault();
+          };
+          
+          dropContainer1.ondrop = function(evt) {
+            // pretty simple -- but not for IE :(
+            fileInput1.files = evt.dataTransfer.files;
+          
+            // If you want to use some of the dropped files
+            const dT = new DataTransfer();
+            dT.items.add(evt.dataTransfer.files[0]);
+            dT.items.add(evt.dataTransfer.files[3]);
+            fileInput1.files = dT.files;
+            evt.preventDefault();
+          };
+
+          dropContainer2.ondragover = dropContainer2.ondragenter = function(evt) {
+            evt.preventDefault();
+          };
+          
+          dropContainer2.ondrop = function(evt) {
+            // pretty simple -- but not for IE :(
+            fileInput2.files = evt.dataTransfer.files;
+          
+            // If you want to use some of the dropped files
+            const dT = new DataTransfer();
+            dT.items.add(evt.dataTransfer.files[0]);
+            dT.items.add(evt.dataTransfer.files[3]);
+            fileInput2.files = dT.files;
+            evt.preventDefault();
+          };
+    </script>
+    
+    <div id="guidance">
+        <h1 class="h-primary center">UNDER THE GUIDANCE OF</h1>
+        <hr>
+        <p class="center"> Mrs.Priyanka
+            Jangde&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mr.Narendra
+            Pal Singh  <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aayushi Jain  &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;aayushijain20085@acropolis.in <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alokit Sharma  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;alokitsharma20401@acropolis.in <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aman Solanki &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;amansolanki20169@acropolis.in
+        </p>
+            
+    </div>
+</body>
+
+</html>
